@@ -60,6 +60,20 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		A66BD4B62A64910A0061F1B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A66BD4B72A6491130061F1B7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		A6B310282A5366770094B9F9 = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +93,10 @@
 		A6B310332A5366770094B9F9 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				A66BD4B72A6491130061F1B7 /* ViewModels */,
+				A66BD4B62A64910A0061F1B7 /* Models */,
 				A6B3104C2A5369880094B9F9 /* Resources */,
-				A6B3104B2A5369640094B9F9 /* ViewModels */,
 				A6B3104A2A5369520094B9F9 /* Views */,
-				A6B310492A5369450094B9F9 /* Models */,
 				A6B310482A5368FC0094B9F9 /* Controllers */,
 				A6B310422A5366780094B9F9 /* Info.plist */,
 			);
@@ -102,13 +116,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		A6B310492A5369450094B9F9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		A6B3104A2A5369520094B9F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +123,6 @@
 				A6B3103D2A5366780094B9F9 /* Assets.xcassets */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		A6B3104B2A5369640094B9F9 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		A6B3104C2A5369880094B9F9 /* Resources */ = {
